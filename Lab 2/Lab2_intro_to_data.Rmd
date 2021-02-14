@@ -414,6 +414,8 @@ nycflights = nycflights %>%
 ggplot(data = nycflights, aes(x=avg_speed, y=distance)) + geom_point()
 ```
 
+The avg_speed vs Distance is exponential. When the average speed becomes greater the distance also becomes a lot greater. This means that destinations that are farther way fly at faster speeds. 
+
 1.  Replicate the following plot. **Hint:** The data frame plotted only
     contains flights from American Airlines, Delta Airlines, and United
     Airlines, and the points are `color`ed by `carrier`. Once you replicate
